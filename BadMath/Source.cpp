@@ -13,7 +13,10 @@ int main()
 	cout << "This program calculates the average of three numbers." << endl;
 	cout << "First number: "; cin >> n1;
 	cout << "Second number: "; cin >> n2;
+
+	//Edited this so cin was going into n3 not n2
 	cout << "Third number: "; cin >> n3;
+
 
 	float a = average(n1, n2, n3);
 
